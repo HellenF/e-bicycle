@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/bg_cadastro.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+ul, li, a {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;         
+}
+
+header {
+  padding: 30px 165px 30px 184px;
+}
+
+.cabecalho a {
+  font-size: 40px;
+}
+
+.menu a {
+  font-size: 32px;
+}
+
+form .campo { 
+  display: flex;
+  flex-direction: column;
+  padding: 30px 420px 30px 680px;   
+}
+
+.cabecalho a, .menu a {
+  color: #FDF7F7;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.campo label {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 32px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+.campo input {
+  border: 0px;
+  width: 420px;
+  height: 32px;
+  border-radius: 6px;    
+}
+
+.button {
+  padding: 30px 420px 30px 680px;
+}
+
+.button input {
+  width: 420px;
+  height: 48px;
+  background: #0C77E4;
+  border-radius: 12px;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+

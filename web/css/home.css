@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/bg_home.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+ul, li, a {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  padding: 30px 165px 30px 184px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;         
+}
+
+.logo a {
+  font-size: 40px;
+}
+
+.menu a {
+  font-size: 32px;
+}
+
+.logo a, .menu a {
+  color: #FDF7F7;
+  font-family: "Roboto", Arial, sans-serif; 
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+    padding: 20px;
+}
+
+.content .p1 {  
+  font-size: 24px;
+  text-align: center;
+  color: #1F1812;
+  padding: 0px 165px 50px 184px;
+  margin: 80px 0px 0px 0px;
+  font-family: "Roboto", Arial, sans-serif;  
+}
+
+.content .p2 {  
+  font-size: 36px; 
+  text-align: center;
+  color: #E4E4E4;
+  margin-top: 130px;
+  padding: 0px 165px 0px 184px;  
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.rodape {  
+  padding-top: 210px;
+  text-align: center;  
+}
+
+.rodape .p3 {
+  font-size: 29px;
+  padding: 0px 165px 0px 184px;
+  font-family: "Roboto", Arial, sans-serif;  
+  color: #F9F4F4;
+}
+
